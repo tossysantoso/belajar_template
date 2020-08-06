@@ -58,6 +58,7 @@
 <script src="{{ asset('/adminlte/dist/js/demo.js') }}"></script>
 
 @stack('script')
+@stack('style')
 
 </body>
 </html>
