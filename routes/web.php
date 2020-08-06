@@ -17,13 +17,18 @@ Route::get('/', function () {
     return view('items.first');
 });
 
-Route::get('/master', function () {
+Route::get('/data-tables', function () {
+    return view('items.second');
+});
+
+
+/*Route::get('/master', function () {
     return view('adminlte.master');
 });
 
 Route::get('/index', function () {
     return view('items.index');
-});
+});*?
 
 
 
